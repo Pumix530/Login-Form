@@ -25,13 +25,13 @@ main, form{
 }
 
 section{
-    min-width: 35rem;
-    max-width: 50rem;
+    min-width: 30rem;
+    max-width: 30rem;
     margin: 0 auto;
     padding: 2rem;
     box-shadow: 0 0 2rem black;
     backdrop-filter: blur(.2rem);
-    font-size: 2rem;
+    font-size: 2em;
     border-radius: 12px;
 }
 
@@ -46,12 +46,16 @@ input{
     margin-bottom: 2rem;
     margin-top: 0.5rem;
     padding: .5rem;
-    height: 3rem;
-    font-size: 1.6rem;
+    height: 6vh;
+    min-height: 3rem;
+    max-height: 4vh;
+    font-size: 1.3rem;
     background-color: rgba(1, 8, 10, 0.7);
     border: solid 1px rgb(17,86,126);
     border-radius: 0.4rem;
 }
+
+
 
 .submit-btn{
     background: rgb(17,86,126);
